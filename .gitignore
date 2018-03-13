@@ -10,7 +10,8 @@
 # Gradle settings
 .gradle
 /local.properties
-gradle.properties
+# not ignoring this to compile faster :D
+#gradle.properties
 
 # Gradle artifacts
 /build

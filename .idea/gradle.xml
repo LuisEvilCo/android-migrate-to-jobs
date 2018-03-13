@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
@@ -10,21 +10,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/firebase-jobdispatcher" />
             <option value="$PROJECT_DIR$/jobdispatcher_complete" />
+            <option value="$PROJECT_DIR$/jobs" />
             <option value="$PROJECT_DIR$/jobscheduler_complete" />
             <option value="$PROJECT_DIR$/original_app" />
             <option value="$PROJECT_DIR$/shared" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/firebase-jobdispatcher" />
-            <option value="$PROJECT_DIR$/jobdispatcher_complete" />
-            <option value="$PROJECT_DIR$/jobscheduler_complete" />
-            <option value="$PROJECT_DIR$/original_app" />
-            <option value="$PROJECT_DIR$/shared" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
