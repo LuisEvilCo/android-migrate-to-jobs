@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-migrate-to-jobs.iml" filepath="$PROJECT_DIR$/android-migrate-to-jobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/android-migrate-to-jobs.iml" filepath="$PROJECT_DIR$/.idea/android-migrate-to-jobs.iml" />
       <module fileurl="file://$PROJECT_DIR$/firebase-jobdispatcher/firebase-jobdispatcher.iml" filepath="$PROJECT_DIR$/firebase-jobdispatcher/firebase-jobdispatcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/jobdispatcher_complete/jobdispatcher_complete.iml" filepath="$PROJECT_DIR$/jobdispatcher_complete/jobdispatcher_complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/jobs/jobs.iml" filepath="$PROJECT_DIR$/jobs/jobs.iml" />

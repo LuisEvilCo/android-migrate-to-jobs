@@ -34,6 +34,9 @@ public class JobsGlobalState {
     @Inject
     EventBus bus;
 
+    @Inject
+    JobDispatchingErrorListener jobDispatchingErrorListener;
+
     private JobsGlobalState(Application app) {
         component = DaggerJobsComponent.builder()
                 .appModule(new AppModule(app))
@@ -44,6 +47,9 @@ public class JobsGlobalState {
 
     private void init() {
         sharedInitializer.init();
+
+
+        bus.register(jobDispatchingErrorListener);
     }
 
     public JobsComponent get() {
